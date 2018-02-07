@@ -1,0 +1,75 @@
+<html>
+	<head>
+        <title>Tips &#38; Tricks</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script>
+            function startTime() {
+                var today = new Date();
+                var h = today.getHours();
+                var m = today.getMinutes();
+                var s = today.getSeconds();
+                m = checkTime(m);
+                s = checkTime(s);
+                document.getElementById('txt').innerHTML =
+                h + ":" + m + ":" + s;
+                var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+                if (i < 10) {i = "0" + i};
+                return i;
+            }
+            function hideElement() {
+                var x = document.getElementById("txt");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+    </head>
+    
+    <body onload="startTime(); hideElement()">
+        <ul>
+            <li><a href="index.html" id="header1">Home</a></li>
+            <li><a href="about_me.html" id="header2">About Me</a></li>
+            <li><a href="portfolio.html" id="header3">Portfolio</a></li>
+            <li><a href="resume.html" id="header4">Resume</a></li>
+            <li><a href="tipsandtricks.html" id="header5">Tips &#38; Tricks</a></li>
+        </ul>
+        <center>
+        <br>
+        <br>
+        <br>
+        <div class="pairborder">
+        <h1>Tips &#38; Tricks</h1>
+        </div>
+        <br>
+        <div class="pairborder">
+        <h1>Tips</h1>
+        <p id="tipsandtricks">
+        There are many things that I have learned while teaching myself to program.
+        <p id="tipsandtricks">
+        Here are some helpful tips &#38; tricks that I have learned along the way.
+        <p id="tipsandtricks">
+        For me, getting used to the enviornment that I work in is crucial to getting faster and more efficient.
+        <p id="tipsandtricks">
+        Learn to use the AutoFill very well, and you can cut your time required in half.
+        </div>
+        <br>
+        <div class="pairborder">
+        <h1>Trick #1</h1>
+        <p id="tipsandtricks">
+        Here is a fun javascript trick!
+        <p id="tipsandtricks">
+        Press the button to toggle a clock!
+        <p id="tipsandtricks">
+        <button onclick="hideElement()">Toggle Clock</button>
+        <div id="txt"></div>
+        <div class="pairborder">
+        <h1>Trick #2</h1>
+        <p id="tipsandtricks">
+        
+        
+    </body>
+</html>

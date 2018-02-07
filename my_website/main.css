@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aqua;
+    font-family: "Comic Sans MS";
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: crimson;
+}
+
+#tipsandtricks {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    color: fuchsia
+}
+
+#header1 {
+    color: darkgoldenrod;
+    font-size: 24px;
+    font-family: "Comic Sans MS";
+    text-align: left;
+}
+
+#header2 {
+    color: darkorchid;
+    font-size: 24px;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+#header3 {
+    color: dodgerblue;
+    font-size: 24px;
+    font-family: "Comic Sans MS";
+    text-align: right;
+}
+
+#header4 {
+    color: darkred;
+    font-size: 24px;
+    font-family: "Comic Sans MS";
+}
+
+#header5 {
+    color: blanchedalmond;
+    font-size: 24px;
+    font-family: "Comic Sans MS";
+}
+
+a {
+    color: chartreuse;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+}
+
+.header {
+    border: 3px solid darkturquoise;
+    outline-style: double;
+    outline-color: brown;
+}
+
+.pairborder {
+    border: 3px solid orange;
+    box-sizing: border-box;
+    outline-style: double;
+    outline-color: white;
+    width: 60%;
+    background-color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: -10;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 110%;
+    background-color: red;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: chartreuse;
+}
+
+iframe {
+    border: 3px solid darkturquoise;
+    outline-style: double;
+    outline-color: white;
+    background-color: darkblue;
+}
+
+#txt {
+    color: #ff5555;
+    font-family: "Comic Sans MS";
+    font-size: 36px;
+}
