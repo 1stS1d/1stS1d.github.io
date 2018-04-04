@@ -3,6 +3,9 @@ This is my website for the AP Computer Science Principles course.
 
 CHANGELOG
 ------------------------------
+- 0.0.30
+  - Updated the app to the newest version
+
 - 0.0.22
   - Fixed download link in portfolio for android app
 
