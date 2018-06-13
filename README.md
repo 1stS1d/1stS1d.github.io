@@ -3,6 +3,9 @@ This is my website for the AP Computer Science Principles course.
 
 CHANGELOG
 ------------------------------
+- 0.0.50
+  - Added a new Android App
+
 - 0.0.40
   - Added a link to my STEMPremier account
 
